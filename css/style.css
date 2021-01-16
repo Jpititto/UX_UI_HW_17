@@ -1,12 +1,21 @@
 
-html {
+/*html {
     background-color: paleturquoise;
-}
+}*/
+
+body {
+    /*background-image: url("../images/hero_web.png"); 
+    height:10px;
+    background-repeat: no-repeat;*/
+    background-color: paleturquoise;
+  }
+
 p {
     font-family: utopia-std-headline,serif;
     font-weight: 400;
     font-style: normal;
     font-size: 34px;
+    color: darkslategray;
 }
 
 .inline-block {
@@ -25,11 +34,13 @@ li {
     width: 23%;
     padding: 0%;
     text-align: center;
+    color:darkslategray;
 }
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
+    color: darkslategray;
     width: 73%;
     padding: 1%;
 }
@@ -45,6 +56,17 @@ section .heroImg {
     padding: 25px;
 }
 
+button {
+    padding: 10px;
+    background-color: white;
+    color: darkslategray;
+    border-radius: 2px;
+    border-color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+
 .content {
     width: 500px;
     margin: 0 auto;
@@ -56,7 +78,7 @@ footer {
     font-size: smaller;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8025483630952381) 50%, rgba(255,255,255,0) 100%);
-    color: black;
+    color: darkslategray;
 }
 footer ul {
     display: inline-block;
