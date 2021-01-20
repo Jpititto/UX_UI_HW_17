@@ -1,12 +1,12 @@
 
-/*html {
-    background-color: paleturquoise;
-}*/
-
 body {
-    /*background-image: url("../images/hero_web.png"); 
-    height:10px;
-    background-repeat: no-repeat;*/
+
+/* BACKGROUND IMAGE
+    background: url(../images/hero_web.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 70%;
+*/
     background-color: paleturquoise;
   }
 
@@ -21,8 +21,6 @@ p {
 .inline-block {
     display: inline-block;
     vertical-align: top;
-    background-color: white;
-    box-shadow:3px 5px 13px lightgray;
 }
 
 li {
@@ -66,10 +64,15 @@ button {
     font-weight: 400;
 
 }
-
+.navigation {
+    background-color: white;
+    box-shadow:3px 5px 13px lightgray;
+}
 .content {
-    width: 500px;
+    width: 300px;
     margin: 0 auto;
+    position:relative;
+    align:right;
 }
 
 footer {
@@ -78,6 +81,7 @@ footer {
     font-size: smaller;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8025483630952381) 50%, rgba(255,255,255,0) 100%);
+    background-size: 1%;
     color: darkslategray;
 }
 footer ul {
